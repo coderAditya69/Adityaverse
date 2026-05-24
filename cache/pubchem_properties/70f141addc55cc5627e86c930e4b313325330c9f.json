@@ -1,0 +1,22 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 944,
+        "MolecularFormula": "HNO3",
+        "MolecularWeight": "63.013",
+        "SMILES": "[N+](=O)(O)[O-]",
+        "ConnectivitySMILES": "[N+](=O)(O)[O-]",
+        "IUPACName": "nitric acid",
+        "XLogP": 0.2,
+        "ExactMass": "62.995642894",
+        "MonoisotopicMass": "62.995642894",
+        "TPSA": 66.1,
+        "Complexity": 24,
+        "Charge": 0,
+        "HBondDonorCount": 1,
+        "HBondAcceptorCount": 3
+      }
+    ]
+  }
+}

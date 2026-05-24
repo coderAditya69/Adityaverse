@@ -1,0 +1,21 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 516875,
+        "MolecularFormula": "KMnO4",
+        "MolecularWeight": "158.034",
+        "SMILES": "[O-][Mn](=O)(=O)=O.[K+]",
+        "ConnectivitySMILES": "[O-][Mn](=O)(=O)=O.[K+]",
+        "IUPACName": "potassium permanganate",
+        "ExactMass": "157.881408",
+        "MonoisotopicMass": "157.881408",
+        "TPSA": 74.3,
+        "Complexity": 118,
+        "Charge": 0,
+        "HBondDonorCount": 0,
+        "HBondAcceptorCount": 4
+      }
+    ]
+  }
+}

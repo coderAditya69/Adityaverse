@@ -1,0 +1,21 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 10340,
+        "MolecularFormula": "CNa2O3",
+        "MolecularWeight": "105.988",
+        "SMILES": "C(=O)([O-])[O-].[Na+].[Na+]",
+        "ConnectivitySMILES": "C(=O)([O-])[O-].[Na+].[Na+]",
+        "IUPACName": "disodium;carbonate",
+        "ExactMass": "105.96428242",
+        "MonoisotopicMass": "105.96428242",
+        "TPSA": 63.2,
+        "Complexity": 18,
+        "Charge": 0,
+        "HBondDonorCount": 0,
+        "HBondAcceptorCount": 3
+      }
+    ]
+  }
+}

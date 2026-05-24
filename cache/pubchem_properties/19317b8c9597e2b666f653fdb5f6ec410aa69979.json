@@ -1,0 +1,22 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 996,
+        "MolecularFormula": "C6H6O",
+        "MolecularWeight": "94.11",
+        "SMILES": "C1=CC=C(C=C1)O",
+        "ConnectivitySMILES": "C1=CC=C(C=C1)O",
+        "IUPACName": "phenol",
+        "XLogP": 1.5,
+        "ExactMass": "94.041864811",
+        "MonoisotopicMass": "94.041864811",
+        "TPSA": 20.2,
+        "Complexity": 46,
+        "Charge": 0,
+        "HBondDonorCount": 1,
+        "HBondAcceptorCount": 1
+      }
+    ]
+  }
+}

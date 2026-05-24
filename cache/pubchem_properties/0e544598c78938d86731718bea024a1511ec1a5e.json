@@ -1,0 +1,22 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 3776,
+        "MolecularFormula": "C3H8O",
+        "MolecularWeight": "60.10",
+        "SMILES": "CC(C)O",
+        "ConnectivitySMILES": "CC(C)O",
+        "IUPACName": "propan-2-ol",
+        "XLogP": 0.3,
+        "ExactMass": "60.057514874",
+        "MonoisotopicMass": "60.057514874",
+        "TPSA": 20.2,
+        "Complexity": 10,
+        "Charge": 0,
+        "HBondDonorCount": 1,
+        "HBondAcceptorCount": 1
+      }
+    ]
+  }
+}

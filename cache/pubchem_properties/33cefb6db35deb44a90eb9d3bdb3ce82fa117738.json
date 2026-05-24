@@ -1,0 +1,21 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 3032552,
+        "MolecularFormula": "NO2",
+        "MolecularWeight": "46.006",
+        "SMILES": "N(=O)[O]",
+        "ConnectivitySMILES": "N(=O)[O]",
+        "XLogP": -0.3,
+        "ExactMass": "45.992903243",
+        "MonoisotopicMass": "45.992903243",
+        "TPSA": 30.4,
+        "Complexity": 7,
+        "Charge": 0,
+        "HBondDonorCount": 0,
+        "HBondAcceptorCount": 2
+      }
+    ]
+  }
+}

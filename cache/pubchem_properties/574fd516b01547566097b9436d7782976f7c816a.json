@@ -1,0 +1,22 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 6344,
+        "MolecularFormula": "CH2Cl2",
+        "MolecularWeight": "84.93",
+        "SMILES": "C(Cl)Cl",
+        "ConnectivitySMILES": "C(Cl)Cl",
+        "IUPACName": "dichloromethane",
+        "XLogP": 1.5,
+        "ExactMass": "83.9533555",
+        "MonoisotopicMass": "83.9533555",
+        "TPSA": 0,
+        "Complexity": 2,
+        "Charge": 0,
+        "HBondDonorCount": 0,
+        "HBondAcceptorCount": 0
+      }
+    ]
+  }
+}

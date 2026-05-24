@@ -1,0 +1,22 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 177,
+        "MolecularFormula": "C2H4O",
+        "MolecularWeight": "44.05",
+        "SMILES": "CC=O",
+        "ConnectivitySMILES": "CC=O",
+        "IUPACName": "acetaldehyde",
+        "XLogP": -0.3,
+        "ExactMass": "44.026214747",
+        "MonoisotopicMass": "44.026214747",
+        "TPSA": 17.1,
+        "Complexity": 10,
+        "Charge": 0,
+        "HBondDonorCount": 0,
+        "HBondAcceptorCount": 1
+      }
+    ]
+  }
+}

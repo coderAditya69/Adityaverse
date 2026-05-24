@@ -1,0 +1,22 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 313,
+        "MolecularFormula": "ClH",
+        "MolecularWeight": "36.46",
+        "SMILES": "Cl",
+        "ConnectivitySMILES": "Cl",
+        "IUPACName": "chlorane",
+        "XLogP": 0.8,
+        "ExactMass": "35.9766777",
+        "MonoisotopicMass": "35.9766777",
+        "TPSA": 0,
+        "Complexity": 0,
+        "Charge": 0,
+        "HBondDonorCount": 1,
+        "HBondAcceptorCount": 0
+      }
+    ]
+  }
+}

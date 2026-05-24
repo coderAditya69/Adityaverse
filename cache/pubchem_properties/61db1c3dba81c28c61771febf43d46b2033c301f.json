@@ -1,0 +1,22 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 948,
+        "MolecularFormula": "N2O",
+        "MolecularWeight": "44.013",
+        "SMILES": "[N-]=[N+]=O",
+        "ConnectivitySMILES": "[N-]=[N+]=O",
+        "IUPACName": "nitrous oxide",
+        "XLogP": 0.5,
+        "ExactMass": "44.001062628",
+        "MonoisotopicMass": "44.001062628",
+        "TPSA": 19.1,
+        "Complexity": 25,
+        "Charge": 0,
+        "HBondDonorCount": 0,
+        "HBondAcceptorCount": 2
+      }
+    ]
+  }
+}

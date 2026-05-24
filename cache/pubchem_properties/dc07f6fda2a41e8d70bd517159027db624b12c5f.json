@@ -1,0 +1,22 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 887,
+        "MolecularFormula": "CH4O",
+        "MolecularWeight": "32.042",
+        "SMILES": "CO",
+        "ConnectivitySMILES": "CO",
+        "IUPACName": "methanol",
+        "XLogP": -0.5,
+        "ExactMass": "32.026214747",
+        "MonoisotopicMass": "32.026214747",
+        "TPSA": 20.2,
+        "Complexity": 2,
+        "Charge": 0,
+        "HBondDonorCount": 1,
+        "HBondAcceptorCount": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 24526,
+        "MolecularFormula": "Cl2",
+        "MolecularWeight": "70.90",
+        "SMILES": "ClCl",
+        "ConnectivitySMILES": "ClCl",
+        "IUPACName": "molecular chlorine",
+        "XLogP": 1.6,
+        "ExactMass": "69.9377054",
+        "MonoisotopicMass": "69.9377054",
+        "TPSA": 0,
+        "Complexity": 0,
+        "Charge": 0,
+        "HBondDonorCount": 0,
+        "HBondAcceptorCount": 0
+      }
+    ]
+  }
+}

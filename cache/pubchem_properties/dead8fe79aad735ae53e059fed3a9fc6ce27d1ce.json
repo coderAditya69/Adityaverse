@@ -1,0 +1,22 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 24819,
+        "MolecularFormula": "Cl5P",
+        "MolecularWeight": "208.2",
+        "SMILES": "P(Cl)(Cl)(Cl)(Cl)Cl",
+        "ConnectivitySMILES": "P(Cl)(Cl)(Cl)(Cl)Cl",
+        "IUPACName": "pentachloro-lambda5-phosphane",
+        "XLogP": 3.9,
+        "ExactMass": "207.815075",
+        "MonoisotopicMass": "205.818025",
+        "TPSA": 0,
+        "Complexity": 37,
+        "Charge": 0,
+        "HBondDonorCount": 0,
+        "HBondAcceptorCount": 0
+      }
+    ]
+  }
+}

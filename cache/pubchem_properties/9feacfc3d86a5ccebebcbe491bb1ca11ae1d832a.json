@@ -1,0 +1,22 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 971,
+        "MolecularFormula": "C2H2O4",
+        "MolecularWeight": "90.03",
+        "SMILES": "C(=O)(C(=O)O)O",
+        "ConnectivitySMILES": "C(=O)(C(=O)O)O",
+        "IUPACName": "oxalic acid",
+        "XLogP": -0.3,
+        "ExactMass": "89.99530854",
+        "MonoisotopicMass": "89.99530854",
+        "TPSA": 74.6,
+        "Complexity": 71,
+        "Charge": 0,
+        "HBondDonorCount": 2,
+        "HBondAcceptorCount": 4
+      }
+    ]
+  }
+}

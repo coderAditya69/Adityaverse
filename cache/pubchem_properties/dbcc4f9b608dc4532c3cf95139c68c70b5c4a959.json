@@ -1,0 +1,22 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 6325,
+        "MolecularFormula": "C2H4",
+        "MolecularWeight": "28.05",
+        "SMILES": "C=C",
+        "ConnectivitySMILES": "C=C",
+        "IUPACName": "ethene",
+        "XLogP": 1.2,
+        "ExactMass": "28.0313001276",
+        "MonoisotopicMass": "28.0313001276",
+        "TPSA": 0,
+        "Complexity": 0,
+        "Charge": 0,
+        "HBondDonorCount": 0,
+        "HBondAcceptorCount": 0
+      }
+    ]
+  }
+}

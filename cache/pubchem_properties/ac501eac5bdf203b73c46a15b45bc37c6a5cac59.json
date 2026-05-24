@@ -1,0 +1,22 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 6334,
+        "MolecularFormula": "C3H8",
+        "MolecularWeight": "44.10",
+        "SMILES": "CCC",
+        "ConnectivitySMILES": "CCC",
+        "IUPACName": "propane",
+        "XLogP": 1.8,
+        "ExactMass": "44.062600255",
+        "MonoisotopicMass": "44.062600255",
+        "TPSA": 0,
+        "Complexity": 0,
+        "Charge": 0,
+        "HBondDonorCount": 0,
+        "HBondAcceptorCount": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 4873,
+        "MolecularFormula": "ClK",
+        "MolecularWeight": "74.55",
+        "SMILES": "[Cl-].[K+]",
+        "ConnectivitySMILES": "[Cl-].[K+]",
+        "IUPACName": "potassium chloride",
+        "ExactMass": "73.9325592",
+        "MonoisotopicMass": "73.9325592",
+        "TPSA": 0,
+        "Complexity": 2,
+        "Charge": 0,
+        "HBondDonorCount": 0,
+        "HBondAcceptorCount": 1
+      }
+    ]
+  }
+}

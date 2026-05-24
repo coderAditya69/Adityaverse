@@ -1,0 +1,704 @@
+[
+  {
+    "name": "Water",
+    "formula": "H2O",
+    "category": "essential",
+    "aliases": [
+      "Dihydrogen monoxide"
+    ],
+    "note": "Universal solvent and benchmark polar molecule."
+  },
+  {
+    "name": "Hydrogen peroxide",
+    "formula": "H2O2",
+    "category": "oxidizer",
+    "aliases": [
+      "Peroxide"
+    ],
+    "note": "Reactive oxygen compound and disinfectant."
+  },
+  {
+    "name": "Methane",
+    "formula": "CH4",
+    "category": "hydrocarbon",
+    "aliases": [
+      "Natural gas"
+    ],
+    "note": "Simplest alkane."
+  },
+  {
+    "name": "Ethane",
+    "formula": "C2H6",
+    "category": "hydrocarbon",
+    "aliases": [],
+    "note": "Two-carbon alkane."
+  },
+  {
+    "name": "Propane",
+    "formula": "C3H8",
+    "category": "hydrocarbon",
+    "aliases": [],
+    "note": "Common fuel gas."
+  },
+  {
+    "name": "Butane",
+    "formula": "C4H10",
+    "category": "hydrocarbon",
+    "aliases": [
+      "n-Butane"
+    ],
+    "note": "Fuel in lighters and camping stoves."
+  },
+  {
+    "name": "Ethene",
+    "formula": "C2H4",
+    "category": "hydrocarbon",
+    "aliases": [
+      "Ethylene"
+    ],
+    "note": "Important feedstock for polymers."
+  },
+  {
+    "name": "Ethyne",
+    "formula": "C2H2",
+    "category": "hydrocarbon",
+    "aliases": [
+      "Acetylene"
+    ],
+    "note": "Used in welding flames."
+  },
+  {
+    "name": "Benzene",
+    "formula": "C6H6",
+    "category": "aromatic",
+    "aliases": [],
+    "note": "Classic aromatic ring."
+  },
+  {
+    "name": "Toluene",
+    "formula": "C7H8",
+    "category": "aromatic",
+    "aliases": [
+      "Methylbenzene"
+    ],
+    "note": "Aromatic solvent."
+  },
+  {
+    "name": "Phenol",
+    "formula": "C6H6O",
+    "category": "aromatic",
+    "aliases": [
+      "Hydroxybenzene"
+    ],
+    "note": "Aromatic alcohol with acidic character."
+  },
+  {
+    "name": "Aniline",
+    "formula": "C6H7N",
+    "category": "aromatic",
+    "aliases": [
+      "Benzenamine"
+    ],
+    "note": "Aromatic amine used in dyes."
+  },
+  {
+    "name": "Methanol",
+    "formula": "CH4O",
+    "category": "alcohol",
+    "aliases": [
+      "Methyl alcohol"
+    ],
+    "note": "Simplest alcohol."
+  },
+  {
+    "name": "Ethanol",
+    "formula": "C2H6O",
+    "category": "alcohol",
+    "aliases": [
+      "Ethyl alcohol"
+    ],
+    "note": "Alcohol found in beverages and fuels."
+  },
+  {
+    "name": "Isopropyl alcohol",
+    "formula": "C3H8O",
+    "category": "alcohol",
+    "aliases": [
+      "2-Propanol",
+      "Isopropanol"
+    ],
+    "note": "Common disinfectant and solvent."
+  },
+  {
+    "name": "Glycerol",
+    "formula": "C3H8O3",
+    "category": "alcohol",
+    "aliases": [
+      "Glycerin"
+    ],
+    "note": "Triol backbone in fats."
+  },
+  {
+    "name": "Formaldehyde",
+    "formula": "CH2O",
+    "category": "aldehyde",
+    "aliases": [
+      "Methanal"
+    ],
+    "note": "Reactive carbonyl compound."
+  },
+  {
+    "name": "Acetaldehyde",
+    "formula": "C2H4O",
+    "category": "aldehyde",
+    "aliases": [
+      "Ethanal"
+    ],
+    "note": "Small aldehyde and intermediate."
+  },
+  {
+    "name": "Acetone",
+    "formula": "C3H6O",
+    "category": "ketone",
+    "aliases": [
+      "Propanone"
+    ],
+    "note": "Common ketone solvent."
+  },
+  {
+    "name": "Acetic acid",
+    "formula": "C2H4O2",
+    "category": "acid",
+    "aliases": [
+      "Ethanoic acid"
+    ],
+    "note": "Acid in vinegar."
+  },
+  {
+    "name": "Formic acid",
+    "formula": "CH2O2",
+    "category": "acid",
+    "aliases": [
+      "Methanoic acid"
+    ],
+    "note": "Smallest carboxylic acid."
+  },
+  {
+    "name": "Citric acid",
+    "formula": "C6H8O7",
+    "category": "acid",
+    "aliases": [],
+    "note": "Triprotic acid in citrus fruits."
+  },
+  {
+    "name": "Lactic acid",
+    "formula": "C3H6O3",
+    "category": "acid",
+    "aliases": [
+      "2-Hydroxypropanoic acid"
+    ],
+    "note": "Fermentation product."
+  },
+  {
+    "name": "Oxalic acid",
+    "formula": "C2H2O4",
+    "category": "acid",
+    "aliases": [
+      "Ethanedioic acid"
+    ],
+    "note": "Dicarboxylic acid."
+  },
+  {
+    "name": "Glucose",
+    "formula": "C6H12O6",
+    "category": "sugar",
+    "aliases": [
+      "Dextrose"
+    ],
+    "note": "Primary metabolic sugar."
+  },
+  {
+    "name": "Fructose",
+    "formula": "C6H12O6",
+    "category": "sugar",
+    "aliases": [
+      "Fruit sugar"
+    ],
+    "note": "Ketose sugar and glucose isomer."
+  },
+  {
+    "name": "Sucrose",
+    "formula": "C12H22O11",
+    "category": "sugar",
+    "aliases": [
+      "Table sugar"
+    ],
+    "note": "Disaccharide of glucose and fructose."
+  },
+  {
+    "name": "Lactose",
+    "formula": "C12H22O11",
+    "category": "sugar",
+    "aliases": [
+      "Milk sugar"
+    ],
+    "note": "Disaccharide found in milk."
+  },
+  {
+    "name": "Maltose",
+    "formula": "C12H22O11",
+    "category": "sugar",
+    "aliases": [
+      "Malt sugar"
+    ],
+    "note": "Disaccharide from starch breakdown."
+  },
+  {
+    "name": "Cellulose repeat unit",
+    "formula": "C6H10O5",
+    "category": "biopolymer",
+    "aliases": [],
+    "note": "Empirical repeat unit for cellulose."
+  },
+  {
+    "name": "Urea",
+    "formula": "CH4N2O",
+    "category": "amide",
+    "aliases": [
+      "Carbamide"
+    ],
+    "note": "Major nitrogenous waste product."
+  },
+  {
+    "name": "Acetamide",
+    "formula": "C2H5NO",
+    "category": "amide",
+    "aliases": [
+      "Ethanamide"
+    ],
+    "note": "Simple amide."
+  },
+  {
+    "name": "Glycine",
+    "formula": "C2H5NO2",
+    "category": "amino acid",
+    "aliases": [],
+    "note": "Smallest amino acid."
+  },
+  {
+    "name": "Alanine",
+    "formula": "C3H7NO2",
+    "category": "amino acid",
+    "aliases": [],
+    "note": "Simple chiral amino acid."
+  },
+  {
+    "name": "Serine",
+    "formula": "C3H7NO3",
+    "category": "amino acid",
+    "aliases": [],
+    "note": "Polar amino acid."
+  },
+  {
+    "name": "Cysteine",
+    "formula": "C3H7NO2S",
+    "category": "amino acid",
+    "aliases": [],
+    "note": "Sulfur-containing amino acid."
+  },
+  {
+    "name": "Aspartic acid",
+    "formula": "C4H7NO4",
+    "category": "amino acid",
+    "aliases": [],
+    "note": "Acidic amino acid."
+  },
+  {
+    "name": "Lysine",
+    "formula": "C6H14N2O2",
+    "category": "amino acid",
+    "aliases": [],
+    "note": "Basic amino acid."
+  },
+  {
+    "name": "Caffeine",
+    "formula": "C8H10N4O2",
+    "category": "alkaloid",
+    "aliases": [],
+    "note": "Stimulant found in coffee and tea."
+  },
+  {
+    "name": "Aspirin",
+    "formula": "C9H8O4",
+    "category": "pharmaceutical",
+    "aliases": [
+      "Acetylsalicylic acid"
+    ],
+    "note": "Widely used analgesic."
+  },
+  {
+    "name": "Paracetamol",
+    "formula": "C8H9NO2",
+    "category": "pharmaceutical",
+    "aliases": [
+      "Acetaminophen"
+    ],
+    "note": "Common pain reliever."
+  },
+  {
+    "name": "Ibuprofen",
+    "formula": "C13H18O2",
+    "category": "pharmaceutical",
+    "aliases": [],
+    "note": "NSAID anti-inflammatory drug."
+  },
+  {
+    "name": "Nicotine",
+    "formula": "C10H14N2",
+    "category": "alkaloid",
+    "aliases": [],
+    "note": "Alkaloid from tobacco."
+  },
+  {
+    "name": "Vanillin",
+    "formula": "C8H8O3",
+    "category": "flavor",
+    "aliases": [],
+    "note": "Characteristic vanilla aroma compound."
+  },
+  {
+    "name": "Sodium chloride",
+    "formula": "NaCl",
+    "category": "salt",
+    "aliases": [
+      "Table salt"
+    ],
+    "note": "Classic ionic solid."
+  },
+  {
+    "name": "Potassium chloride",
+    "formula": "KCl",
+    "category": "salt",
+    "aliases": [],
+    "note": "Important electrolyte salt."
+  },
+  {
+    "name": "Sodium bicarbonate",
+    "formula": "NaHCO3",
+    "category": "salt",
+    "aliases": [
+      "Baking soda"
+    ],
+    "note": "Mild base and leavening agent."
+  },
+  {
+    "name": "Sodium carbonate",
+    "formula": "Na2CO3",
+    "category": "salt",
+    "aliases": [
+      "Soda ash"
+    ],
+    "note": "Alkaline sodium salt."
+  },
+  {
+    "name": "Calcium carbonate",
+    "formula": "CaCO3",
+    "category": "mineral",
+    "aliases": [
+      "Limestone",
+      "Chalk"
+    ],
+    "note": "Common mineral and biomaterial."
+  },
+  {
+    "name": "Magnesium sulfate",
+    "formula": "MgSO4",
+    "category": "salt",
+    "aliases": [
+      "Epsom salt"
+    ],
+    "note": "Magnesium-containing ionic compound."
+  },
+  {
+    "name": "Copper(II) sulfate pentahydrate",
+    "formula": "CuSO4?5H2O",
+    "category": "hydrate",
+    "aliases": [
+      "Blue vitriol"
+    ],
+    "note": "Vivid blue crystalline hydrate."
+  },
+  {
+    "name": "Sodium hydroxide",
+    "formula": "NaOH",
+    "category": "base",
+    "aliases": [
+      "Caustic soda"
+    ],
+    "note": "Strong base."
+  },
+  {
+    "name": "Potassium hydroxide",
+    "formula": "KOH",
+    "category": "base",
+    "aliases": [
+      "Caustic potash"
+    ],
+    "note": "Strong alkali."
+  },
+  {
+    "name": "Ammonia",
+    "formula": "NH3",
+    "category": "base",
+    "aliases": [
+      "Azane"
+    ],
+    "note": "Trigonal pyramidal molecule with lone pair."
+  },
+  {
+    "name": "Ammonium nitrate",
+    "formula": "NH4NO3",
+    "category": "salt",
+    "aliases": [],
+    "note": "Fertilizer and oxidizer."
+  },
+  {
+    "name": "Nitric acid",
+    "formula": "HNO3",
+    "category": "acid",
+    "aliases": [],
+    "note": "Strong mineral acid."
+  },
+  {
+    "name": "Sulfuric acid",
+    "formula": "H2SO4",
+    "category": "acid",
+    "aliases": [],
+    "note": "Industrial strong acid."
+  },
+  {
+    "name": "Phosphoric acid",
+    "formula": "H3PO4",
+    "category": "acid",
+    "aliases": [],
+    "note": "Triprotic mineral acid."
+  },
+  {
+    "name": "Hydrochloric acid",
+    "formula": "HCl",
+    "category": "acid",
+    "aliases": [
+      "Muriatic acid"
+    ],
+    "note": "Hydrogen chloride in water."
+  },
+  {
+    "name": "Carbon dioxide",
+    "formula": "CO2",
+    "category": "gas",
+    "aliases": [],
+    "note": "Linear greenhouse gas."
+  },
+  {
+    "name": "Carbon monoxide",
+    "formula": "CO",
+    "category": "gas",
+    "aliases": [],
+    "note": "Toxic carbon oxide."
+  },
+  {
+    "name": "Nitrogen dioxide",
+    "formula": "NO2",
+    "category": "gas",
+    "aliases": [],
+    "note": "Reactive brown gas."
+  },
+  {
+    "name": "Nitrous oxide",
+    "formula": "N2O",
+    "category": "gas",
+    "aliases": [
+      "Laughing gas"
+    ],
+    "note": "Anesthetic gas."
+  },
+  {
+    "name": "Sulfur dioxide",
+    "formula": "SO2",
+    "category": "gas",
+    "aliases": [],
+    "note": "Bent sulfur oxide."
+  },
+  {
+    "name": "Sulfur trioxide",
+    "formula": "SO3",
+    "category": "gas",
+    "aliases": [],
+    "note": "Sulfuric acid precursor."
+  },
+  {
+    "name": "Ozone",
+    "formula": "O3",
+    "category": "allotrope",
+    "aliases": [],
+    "note": "Bent triatomic oxygen allotrope."
+  },
+  {
+    "name": "Oxygen",
+    "formula": "O2",
+    "category": "elemental",
+    "aliases": [
+      "Dioxygen"
+    ],
+    "note": "Essential oxidizing gas."
+  },
+  {
+    "name": "Nitrogen",
+    "formula": "N2",
+    "category": "elemental",
+    "aliases": [
+      "Dinitrogen"
+    ],
+    "note": "Major atmospheric gas."
+  },
+  {
+    "name": "Hydrogen",
+    "formula": "H2",
+    "category": "elemental",
+    "aliases": [
+      "Dihydrogen"
+    ],
+    "note": "Lightest molecular gas."
+  },
+  {
+    "name": "Chlorine",
+    "formula": "Cl2",
+    "category": "elemental",
+    "aliases": [
+      "Dichlorine"
+    ],
+    "note": "Reactive halogen gas."
+  },
+  {
+    "name": "Phosphorus pentachloride",
+    "formula": "PCl5",
+    "category": "reagent",
+    "aliases": [],
+    "note": "Molecular solid used in chlorination."
+  },
+  {
+    "name": "Silicon dioxide",
+    "formula": "SiO2",
+    "category": "mineral",
+    "aliases": [
+      "Silica"
+    ],
+    "note": "Framework oxide in sand and quartz."
+  },
+  {
+    "name": "Boron trifluoride",
+    "formula": "BF3",
+    "category": "reagent",
+    "aliases": [],
+    "note": "Lewis acid with trigonal planar geometry."
+  },
+  {
+    "name": "Sulfur hexafluoride",
+    "formula": "SF6",
+    "category": "gas",
+    "aliases": [],
+    "note": "Highly symmetric octahedral gas."
+  },
+  {
+    "name": "Phosphine",
+    "formula": "PH3",
+    "category": "gas",
+    "aliases": [],
+    "note": "Pyramidal pnictogen hydride."
+  },
+  {
+    "name": "Chloroform",
+    "formula": "CHCl3",
+    "category": "solvent",
+    "aliases": [
+      "Trichloromethane"
+    ],
+    "note": "Halogenated solvent."
+  },
+  {
+    "name": "Dichloromethane",
+    "formula": "CH2Cl2",
+    "category": "solvent",
+    "aliases": [
+      "Methylene chloride"
+    ],
+    "note": "Common extraction solvent."
+  },
+  {
+    "name": "Sodium hypochlorite",
+    "formula": "NaClO",
+    "category": "oxidizer",
+    "aliases": [
+      "Bleach"
+    ],
+    "note": "Active ingredient in household bleach."
+  },
+  {
+    "name": "Calcium hydroxide",
+    "formula": "Ca(OH)2",
+    "category": "base",
+    "aliases": [
+      "Slaked lime"
+    ],
+    "note": "Alkaline earth hydroxide."
+  },
+  {
+    "name": "Calcium oxide",
+    "formula": "CaO",
+    "category": "oxide",
+    "aliases": [
+      "Quicklime"
+    ],
+    "note": "Basic metal oxide."
+  },
+  {
+    "name": "Iron(III) oxide",
+    "formula": "Fe2O3",
+    "category": "oxide",
+    "aliases": [
+      "Hematite",
+      "Rust"
+    ],
+    "note": "Common iron oxide."
+  },
+  {
+    "name": "Aluminium oxide",
+    "formula": "Al2O3",
+    "category": "oxide",
+    "aliases": [
+      "Alumina"
+    ],
+    "note": "Hard ceramic oxide."
+  },
+  {
+    "name": "Sodium sulfate",
+    "formula": "Na2SO4",
+    "category": "salt",
+    "aliases": [],
+    "note": "Industrial sulfate salt."
+  },
+  {
+    "name": "Potassium permanganate",
+    "formula": "KMnO4",
+    "category": "oxidizer",
+    "aliases": [],
+    "note": "Strong oxidizing agent with purple color."
+  },
+  {
+    "name": "Glutamic acid",
+    "formula": "C5H9NO4",
+    "category": "amino acid",
+    "aliases": [],
+    "note": "Important neurotransmitter precursor."
+  }
+]

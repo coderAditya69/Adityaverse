@@ -1,0 +1,22 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 712,
+        "MolecularFormula": "CH2O",
+        "MolecularWeight": "30.026",
+        "SMILES": "C=O",
+        "ConnectivitySMILES": "C=O",
+        "IUPACName": "formaldehyde",
+        "XLogP": 1.2,
+        "ExactMass": "30.010564683",
+        "MonoisotopicMass": "30.010564683",
+        "TPSA": 17.1,
+        "Complexity": 2,
+        "Charge": 0,
+        "HBondDonorCount": 0,
+        "HBondAcceptorCount": 1
+      }
+    ]
+  }
+}

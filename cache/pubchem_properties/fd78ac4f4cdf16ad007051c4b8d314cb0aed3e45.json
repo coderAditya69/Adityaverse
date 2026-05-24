@@ -1,0 +1,22 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 5862,
+        "MolecularFormula": "C3H7NO2S",
+        "MolecularWeight": "121.16",
+        "SMILES": "C([C@@H](C(=O)O)N)S",
+        "ConnectivitySMILES": "C(C(C(=O)O)N)S",
+        "IUPACName": "(2R)-2-amino-3-sulfanylpropanoic acid",
+        "XLogP": -2.5,
+        "ExactMass": "121.01974964",
+        "MonoisotopicMass": "121.01974964",
+        "TPSA": 64.3,
+        "Complexity": 75,
+        "Charge": 0,
+        "HBondDonorCount": 3,
+        "HBondAcceptorCount": 4
+      }
+    ]
+  }
+}

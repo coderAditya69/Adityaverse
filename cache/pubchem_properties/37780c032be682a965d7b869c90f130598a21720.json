@@ -1,0 +1,22 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 6212,
+        "MolecularFormula": "CHCl3",
+        "MolecularWeight": "119.37",
+        "SMILES": "C(Cl)(Cl)Cl",
+        "ConnectivitySMILES": "C(Cl)(Cl)Cl",
+        "IUPACName": "chloroform",
+        "XLogP": 2.3,
+        "ExactMass": "117.914383",
+        "MonoisotopicMass": "117.914383",
+        "TPSA": 0,
+        "Complexity": 8,
+        "Charge": 0,
+        "HBondDonorCount": 0,
+        "HBondAcceptorCount": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 180,
+        "MolecularFormula": "C3H6O",
+        "MolecularWeight": "58.08",
+        "SMILES": "CC(=O)C",
+        "ConnectivitySMILES": "CC(=O)C",
+        "IUPACName": "propan-2-one",
+        "XLogP": -0.1,
+        "ExactMass": "58.041864811",
+        "MonoisotopicMass": "58.041864811",
+        "TPSA": 17.1,
+        "Complexity": 26,
+        "Charge": 0,
+        "HBondDonorCount": 0,
+        "HBondAcceptorCount": 1
+      }
+    ]
+  }
+}

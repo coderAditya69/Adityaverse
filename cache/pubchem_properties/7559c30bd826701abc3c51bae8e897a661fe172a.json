@@ -1,0 +1,22 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 17358,
+        "MolecularFormula": "F6S",
+        "MolecularWeight": "146.06",
+        "SMILES": "FS(F)(F)(F)(F)F",
+        "ConnectivitySMILES": "FS(F)(F)(F)(F)F",
+        "IUPACName": "hexafluoro-lambda6-sulfane",
+        "XLogP": 4.2,
+        "ExactMass": "145.96249015",
+        "MonoisotopicMass": "145.96249015",
+        "TPSA": 1,
+        "Complexity": 62,
+        "Charge": 0,
+        "HBondDonorCount": 0,
+        "HBondAcceptorCount": 6
+      }
+    ]
+  }
+}

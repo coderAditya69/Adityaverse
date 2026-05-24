@@ -1,0 +1,22 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 1983,
+        "MolecularFormula": "C8H9NO2",
+        "MolecularWeight": "151.16",
+        "SMILES": "CC(=O)NC1=CC=C(C=C1)O",
+        "ConnectivitySMILES": "CC(=O)NC1=CC=C(C=C1)O",
+        "IUPACName": "N-(4-hydroxyphenyl)acetamide",
+        "XLogP": 0.5,
+        "ExactMass": "151.063328530",
+        "MonoisotopicMass": "151.063328530",
+        "TPSA": 49.3,
+        "Complexity": 139,
+        "Charge": 0,
+        "HBondDonorCount": 2,
+        "HBondAcceptorCount": 2
+      }
+    ]
+  }
+}

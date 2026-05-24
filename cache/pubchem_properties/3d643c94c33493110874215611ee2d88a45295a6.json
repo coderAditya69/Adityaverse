@@ -1,0 +1,21 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 23665760,
+        "MolecularFormula": "ClNaO",
+        "MolecularWeight": "74.44",
+        "SMILES": "[O-]Cl.[Na+]",
+        "ConnectivitySMILES": "[O-]Cl.[Na+]",
+        "IUPACName": "sodium hypochlorite",
+        "ExactMass": "73.9535366",
+        "MonoisotopicMass": "73.9535366",
+        "TPSA": 23.1,
+        "Complexity": 4,
+        "Charge": 0,
+        "HBondDonorCount": 0,
+        "HBondAcceptorCount": 1
+      }
+    ]
+  }
+}

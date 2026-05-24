@@ -1,0 +1,21 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 24261,
+        "MolecularFormula": "O2Si",
+        "MolecularWeight": "60.084",
+        "SMILES": "O=[Si]=O",
+        "ConnectivitySMILES": "O=[Si]=O",
+        "IUPACName": "dioxosilane",
+        "ExactMass": "59.966755773",
+        "MonoisotopicMass": "59.966755773",
+        "TPSA": 34.1,
+        "Complexity": 18,
+        "Charge": 0,
+        "HBondDonorCount": 0,
+        "HBondAcceptorCount": 2
+      }
+    ]
+  }
+}

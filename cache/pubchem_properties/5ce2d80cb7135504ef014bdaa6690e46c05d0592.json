@@ -1,0 +1,22 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 6324,
+        "MolecularFormula": "C2H6",
+        "MolecularWeight": "30.07",
+        "SMILES": "CC",
+        "ConnectivitySMILES": "CC",
+        "IUPACName": "ethane",
+        "XLogP": 1.3,
+        "ExactMass": "30.0469501914",
+        "MonoisotopicMass": "30.0469501914",
+        "TPSA": 0,
+        "Complexity": 0,
+        "Charge": 0,
+        "HBondDonorCount": 0,
+        "HBondAcceptorCount": 0
+      }
+    ]
+  }
+}

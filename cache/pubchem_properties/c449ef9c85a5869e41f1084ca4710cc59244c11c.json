@@ -1,0 +1,22 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 1183,
+        "MolecularFormula": "C8H8O3",
+        "MolecularWeight": "152.15",
+        "SMILES": "COC1=C(C=CC(=C1)C=O)O",
+        "ConnectivitySMILES": "COC1=C(C=CC(=C1)C=O)O",
+        "IUPACName": "4-hydroxy-3-methoxybenzaldehyde",
+        "XLogP": 1.2,
+        "ExactMass": "152.047344113",
+        "MonoisotopicMass": "152.047344113",
+        "TPSA": 46.5,
+        "Complexity": 135,
+        "Charge": 0,
+        "HBondDonorCount": 1,
+        "HBondAcceptorCount": 3
+      }
+    ]
+  }
+}

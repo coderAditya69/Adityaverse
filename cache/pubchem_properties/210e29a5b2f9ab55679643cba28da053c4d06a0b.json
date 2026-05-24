@@ -1,0 +1,22 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 753,
+        "MolecularFormula": "C3H8O3",
+        "MolecularWeight": "92.09",
+        "SMILES": "C(C(CO)O)O",
+        "ConnectivitySMILES": "C(C(CO)O)O",
+        "IUPACName": "propane-1,2,3-triol",
+        "XLogP": -1.8,
+        "ExactMass": "92.047344113",
+        "MonoisotopicMass": "92.047344113",
+        "TPSA": 60.7,
+        "Complexity": 25,
+        "Charge": 0,
+        "HBondDonorCount": 3,
+        "HBondAcceptorCount": 3
+      }
+    ]
+  }
+}

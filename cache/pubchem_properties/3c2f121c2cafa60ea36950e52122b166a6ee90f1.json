@@ -1,0 +1,22 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 5988,
+        "MolecularFormula": "C12H22O11",
+        "MolecularWeight": "342.30",
+        "SMILES": "C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@]2([C@H]([C@@H]([C@H](O2)CO)O)O)CO)O)O)O)O",
+        "ConnectivitySMILES": "C(C1C(C(C(C(O1)OC2(C(C(C(O2)CO)O)O)CO)O)O)O)O",
+        "IUPACName": "(2R,3R,4S,5S,6R)-2-[(2S,3S,4S,5R)-3,4-dihydroxy-2,5-bis(hydroxymethyl)oxolan-2-yl]oxy-6-(hydroxymethyl)oxane-3,4,5-triol",
+        "XLogP": -3.7,
+        "ExactMass": "342.11621151",
+        "MonoisotopicMass": "342.11621151",
+        "TPSA": 190,
+        "Complexity": 395,
+        "Charge": 0,
+        "HBondDonorCount": 8,
+        "HBondAcceptorCount": 11
+      }
+    ]
+  }
+}

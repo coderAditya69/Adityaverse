@@ -1,0 +1,22 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 24823,
+        "MolecularFormula": "O3",
+        "MolecularWeight": "47.998",
+        "SMILES": "[O-][O+]=O",
+        "ConnectivitySMILES": "[O-][O+]=O",
+        "IUPACName": "ozone",
+        "XLogP": -1.7,
+        "ExactMass": "47.984743858",
+        "MonoisotopicMass": "47.984743858",
+        "TPSA": 41.1,
+        "Complexity": 4,
+        "Charge": 0,
+        "HBondDonorCount": 0,
+        "HBondAcceptorCount": 2
+      }
+    ]
+  }
+}

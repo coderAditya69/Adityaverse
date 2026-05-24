@@ -1,0 +1,22 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 783,
+        "MolecularFormula": "H2",
+        "MolecularWeight": "2.016",
+        "SMILES": "[HH]",
+        "ConnectivitySMILES": "[HH]",
+        "IUPACName": "molecular hydrogen",
+        "XLogP": 0,
+        "ExactMass": "2.0156500638",
+        "MonoisotopicMass": "2.0156500638",
+        "TPSA": 0,
+        "Complexity": 0,
+        "Charge": 0,
+        "HBondDonorCount": 0,
+        "HBondAcceptorCount": 0
+      }
+    ]
+  }
+}

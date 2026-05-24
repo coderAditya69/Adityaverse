@@ -1,0 +1,21 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 6093208,
+        "MolecularFormula": "CaH2O2",
+        "MolecularWeight": "74.09",
+        "SMILES": "[OH-].[OH-].[Ca+2]",
+        "ConnectivitySMILES": "[OH-].[OH-].[Ca+2]",
+        "IUPACName": "calcium dihydroxide",
+        "ExactMass": "73.9680702",
+        "MonoisotopicMass": "73.9680702",
+        "TPSA": 2,
+        "Complexity": 0,
+        "Charge": 0,
+        "HBondDonorCount": 2,
+        "HBondAcceptorCount": 2
+      }
+    ]
+  }
+}

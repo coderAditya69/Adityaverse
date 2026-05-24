@@ -1,0 +1,22 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 89594,
+        "MolecularFormula": "C10H14N2",
+        "MolecularWeight": "162.23",
+        "SMILES": "CN1CCC[C@H]1C2=CN=CC=C2",
+        "ConnectivitySMILES": "CN1CCCC1C2=CN=CC=C2",
+        "IUPACName": "3-[(2S)-1-methylpyrrolidin-2-yl]pyridine",
+        "XLogP": 1.2,
+        "ExactMass": "162.115698455",
+        "MonoisotopicMass": "162.115698455",
+        "TPSA": 16.1,
+        "Complexity": 147,
+        "Charge": 0,
+        "HBondDonorCount": 0,
+        "HBondAcceptorCount": 2
+      }
+    ]
+  }
+}

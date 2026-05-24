@@ -1,0 +1,22 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 7843,
+        "MolecularFormula": "C4H10",
+        "MolecularWeight": "58.12",
+        "SMILES": "CCCC",
+        "ConnectivitySMILES": "CCCC",
+        "IUPACName": "butane",
+        "XLogP": 2.9,
+        "ExactMass": "58.078250319",
+        "MonoisotopicMass": "58.078250319",
+        "TPSA": 0,
+        "Complexity": 2,
+        "Charge": 0,
+        "HBondDonorCount": 0,
+        "HBondAcceptorCount": 0
+      }
+    ]
+  }
+}

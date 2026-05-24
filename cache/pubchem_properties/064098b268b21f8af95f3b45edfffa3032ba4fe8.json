@@ -1,0 +1,22 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 1119,
+        "MolecularFormula": "O2S",
+        "MolecularWeight": "64.07",
+        "SMILES": "O=S=O",
+        "ConnectivitySMILES": "O=S=O",
+        "IUPACName": "sulfur dioxide",
+        "XLogP": 0.1,
+        "ExactMass": "63.96190041",
+        "MonoisotopicMass": "63.96190041",
+        "TPSA": 35.1,
+        "Complexity": 18,
+        "Charge": 0,
+        "HBondDonorCount": 0,
+        "HBondAcceptorCount": 3
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 178,
+        "MolecularFormula": "C2H5NO",
+        "MolecularWeight": "59.07",
+        "SMILES": "CC(=O)N",
+        "ConnectivitySMILES": "CC(=O)N",
+        "IUPACName": "acetamide",
+        "XLogP": -0.9,
+        "ExactMass": "59.037113783",
+        "MonoisotopicMass": "59.037113783",
+        "TPSA": 43.1,
+        "Complexity": 33,
+        "Charge": 0,
+        "HBondDonorCount": 1,
+        "HBondAcceptorCount": 1
+      }
+    ]
+  }
+}

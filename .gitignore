@@ -1,0 +1,10 @@
+# Exclude external tools
+/android-tools/
+/tools/
+
+# Standard Ignores
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log

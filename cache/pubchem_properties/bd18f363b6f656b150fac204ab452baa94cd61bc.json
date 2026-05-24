@@ -1,0 +1,22 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 3672,
+        "MolecularFormula": "C13H18O2",
+        "MolecularWeight": "206.28",
+        "SMILES": "CC(C)CC1=CC=C(C=C1)C(C)C(=O)O",
+        "ConnectivitySMILES": "CC(C)CC1=CC=C(C=C1)C(C)C(=O)O",
+        "IUPACName": "2-[4-(2-methylpropyl)phenyl]propanoic acid",
+        "XLogP": 3.5,
+        "ExactMass": "206.130679813",
+        "MonoisotopicMass": "206.130679813",
+        "TPSA": 37.3,
+        "Complexity": 203,
+        "Charge": 0,
+        "HBondDonorCount": 1,
+        "HBondAcceptorCount": 2
+      }
+    ]
+  }
+}

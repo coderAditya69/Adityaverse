@@ -1,0 +1,21 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 14778,
+        "MolecularFormula": "CaO",
+        "MolecularWeight": "56.08",
+        "SMILES": "O=[Ca]",
+        "ConnectivitySMILES": "O=[Ca]",
+        "IUPACName": "oxocalcium",
+        "ExactMass": "55.9575055",
+        "MonoisotopicMass": "55.9575055",
+        "TPSA": 17.1,
+        "Complexity": 2,
+        "Charge": 0,
+        "HBondDonorCount": 0,
+        "HBondAcceptorCount": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 750,
+        "MolecularFormula": "C2H5NO2",
+        "MolecularWeight": "75.07",
+        "SMILES": "C(C(=O)O)N",
+        "ConnectivitySMILES": "C(C(=O)O)N",
+        "IUPACName": "2-aminoacetic acid",
+        "XLogP": -3.2,
+        "ExactMass": "75.032028402",
+        "MonoisotopicMass": "75.032028402",
+        "TPSA": 63.3,
+        "Complexity": 42,
+        "Charge": 0,
+        "HBondDonorCount": 2,
+        "HBondAcceptorCount": 3
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 24404,
+        "MolecularFormula": "H3P",
+        "MolecularWeight": "33.998",
+        "SMILES": "P",
+        "ConnectivitySMILES": "P",
+        "IUPACName": "phosphane",
+        "XLogP": -0.1,
+        "ExactMass": "33.997237093",
+        "MonoisotopicMass": "33.997237093",
+        "TPSA": 0,
+        "Complexity": 0,
+        "Charge": 0,
+        "HBondDonorCount": 0,
+        "HBondAcceptorCount": 0
+      }
+    ]
+  }
+}

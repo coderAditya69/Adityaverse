@@ -1,0 +1,22 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 5960,
+        "MolecularFormula": "C4H7NO4",
+        "MolecularWeight": "133.10",
+        "SMILES": "C([C@@H](C(=O)O)N)C(=O)O",
+        "ConnectivitySMILES": "C(C(C(=O)O)N)C(=O)O",
+        "IUPACName": "(2S)-2-aminobutanedioic acid",
+        "XLogP": -2.8,
+        "ExactMass": "133.03750770",
+        "MonoisotopicMass": "133.03750770",
+        "TPSA": 101,
+        "Complexity": 133,
+        "Charge": 0,
+        "HBondDonorCount": 3,
+        "HBondAcceptorCount": 5
+      }
+    ]
+  }
+}

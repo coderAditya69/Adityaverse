@@ -1,0 +1,22 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 1004,
+        "MolecularFormula": "H3O4P",
+        "MolecularWeight": "97.995",
+        "SMILES": "OP(=O)(O)O",
+        "ConnectivitySMILES": "OP(=O)(O)O",
+        "IUPACName": "phosphoric acid",
+        "XLogP": -2.1,
+        "ExactMass": "97.97689557",
+        "MonoisotopicMass": "97.97689557",
+        "TPSA": 77.8,
+        "Complexity": 49,
+        "Charge": 0,
+        "HBondDonorCount": 3,
+        "HBondAcceptorCount": 4
+      }
+    ]
+  }
+}

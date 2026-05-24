@@ -1,0 +1,21 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 14798,
+        "MolecularFormula": "HNaO",
+        "MolecularWeight": "39.997",
+        "SMILES": "[OH-].[Na+]",
+        "ConnectivitySMILES": "[OH-].[Na+]",
+        "IUPACName": "sodium hydroxide",
+        "ExactMass": "39.99250893",
+        "MonoisotopicMass": "39.99250893",
+        "TPSA": 1,
+        "Complexity": 2,
+        "Charge": 0,
+        "HBondDonorCount": 1,
+        "HBondAcceptorCount": 1
+      }
+    ]
+  }
+}

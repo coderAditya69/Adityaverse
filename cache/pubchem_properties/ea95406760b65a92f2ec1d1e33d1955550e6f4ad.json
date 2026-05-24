@@ -1,0 +1,22 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 1176,
+        "MolecularFormula": "CH4N2O",
+        "MolecularWeight": "60.056",
+        "SMILES": "C(=O)(N)N",
+        "ConnectivitySMILES": "C(=O)(N)N",
+        "IUPACName": "urea",
+        "XLogP": -1.4,
+        "ExactMass": "60.032362755",
+        "MonoisotopicMass": "60.032362755",
+        "TPSA": 69.1,
+        "Complexity": 29,
+        "Charge": 0,
+        "HBondDonorCount": 2,
+        "HBondAcceptorCount": 1
+      }
+    ]
+  }
+}

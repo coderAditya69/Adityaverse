@@ -1,0 +1,21 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 6356,
+        "MolecularFormula": "BF3",
+        "MolecularWeight": "67.81",
+        "SMILES": "B(F)(F)F",
+        "ConnectivitySMILES": "B(F)(F)F",
+        "IUPACName": "trifluoroborane",
+        "ExactMass": "68.0045147",
+        "MonoisotopicMass": "68.0045147",
+        "TPSA": 0,
+        "Complexity": 8,
+        "Charge": 0,
+        "HBondDonorCount": 0,
+        "HBondAcceptorCount": 3
+      }
+    ]
+  }
+}

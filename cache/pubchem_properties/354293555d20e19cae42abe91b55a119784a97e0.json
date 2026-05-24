@@ -1,0 +1,22 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 33032,
+        "MolecularFormula": "C5H9NO4",
+        "MolecularWeight": "147.13",
+        "SMILES": "C(CC(=O)O)[C@@H](C(=O)O)N",
+        "ConnectivitySMILES": "C(CC(=O)O)C(C(=O)O)N",
+        "IUPACName": "(2S)-2-aminopentanedioic acid",
+        "XLogP": -3.7,
+        "ExactMass": "147.05315777",
+        "MonoisotopicMass": "147.05315777",
+        "TPSA": 101,
+        "Complexity": 145,
+        "Charge": 0,
+        "HBondDonorCount": 3,
+        "HBondAcceptorCount": 5
+      }
+    ]
+  }
+}

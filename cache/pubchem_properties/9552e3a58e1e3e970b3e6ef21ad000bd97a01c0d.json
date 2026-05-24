@@ -1,0 +1,22 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 612,
+        "MolecularFormula": "C3H6O3",
+        "MolecularWeight": "90.08",
+        "SMILES": "CC(C(=O)O)O",
+        "ConnectivitySMILES": "CC(C(=O)O)O",
+        "IUPACName": "2-hydroxypropanoic acid",
+        "XLogP": -0.7,
+        "ExactMass": "90.031694049",
+        "MonoisotopicMass": "90.031694049",
+        "TPSA": 57.5,
+        "Complexity": 59,
+        "Charge": 0,
+        "HBondDonorCount": 2,
+        "HBondAcceptorCount": 3
+      }
+    ]
+  }
+}

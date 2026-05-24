@@ -1,0 +1,21 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 14833,
+        "MolecularFormula": "Fe2O3",
+        "MolecularWeight": "159.69",
+        "SMILES": "[O-2].[O-2].[O-2].[Fe+3].[Fe+3]",
+        "ConnectivitySMILES": "[O-2].[O-2].[O-2].[Fe+3].[Fe+3]",
+        "IUPACName": "bis(iron(3+));tris(oxygen(2-))",
+        "ExactMass": "159.854615",
+        "MonoisotopicMass": "159.854615",
+        "TPSA": 3,
+        "Complexity": 0,
+        "Charge": 0,
+        "HBondDonorCount": 0,
+        "HBondAcceptorCount": 3
+      }
+    ]
+  }
+}

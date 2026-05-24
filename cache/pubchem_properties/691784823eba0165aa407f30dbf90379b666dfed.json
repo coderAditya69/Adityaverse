@@ -1,0 +1,21 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 24463,
+        "MolecularFormula": "CuH10O9S",
+        "MolecularWeight": "249.69",
+        "SMILES": "O.O.O.O.O.[O-]S(=O)(=O)[O-].[Cu+2]",
+        "ConnectivitySMILES": "O.O.O.O.O.[O-]S(=O)(=O)[O-].[Cu+2]",
+        "IUPACName": "copper;sulfate;pentahydrate",
+        "ExactMass": "248.934150",
+        "MonoisotopicMass": "248.934150",
+        "TPSA": 93.6,
+        "Complexity": 62,
+        "Charge": 0,
+        "HBondDonorCount": 5,
+        "HBondAcceptorCount": 9
+      }
+    ]
+  }
+}

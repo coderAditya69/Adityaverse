@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Molecule Builder</string>
+    <string name="app_subtitle">Standalone chemistry workspace</string>
+    <string name="loading">Loading Molecule Builder...</string>
+    <string name="mobile_ready">Offline-ready APK</string>
+    <string name="consent_title">Open the bundled chemistry app and allow online extras</string>
+    <string name="consent_body">This APK now includes its own bundled chemistry workspace on the phone. Internet is only used for optional remote sources or extra links, not to keep the main app alive.</string>
+    <string name="current_server">Current source</string>
+    <string name="allow_internet">Open standalone app</string>
+    <string name="configure_server">Optional remote URL</string>
+    <string name="reset_to_public_link">Reset to standalone mode</string>
+    <string name="connection_issue">Connection state</string>
+    <string name="error_title">The selected source could not be opened</string>
+    <string name="retry">Retry</string>
+    <string name="change_server">Change source URL</string>
+    <string name="reload">Reload</string>
+    <string name="edit_server">Edit source URL</string>
+</resources>

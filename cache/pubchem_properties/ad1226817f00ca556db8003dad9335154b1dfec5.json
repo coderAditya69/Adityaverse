@@ -1,0 +1,22 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 6115,
+        "MolecularFormula": "C6H7N",
+        "MolecularWeight": "93.13",
+        "SMILES": "C1=CC=C(C=C1)N",
+        "ConnectivitySMILES": "C1=CC=C(C=C1)N",
+        "IUPACName": "aniline",
+        "XLogP": 0.9,
+        "ExactMass": "93.057849228",
+        "MonoisotopicMass": "93.057849228",
+        "TPSA": 26,
+        "Complexity": 46,
+        "Charge": 0,
+        "HBondDonorCount": 1,
+        "HBondAcceptorCount": 1
+      }
+    ]
+  }
+}

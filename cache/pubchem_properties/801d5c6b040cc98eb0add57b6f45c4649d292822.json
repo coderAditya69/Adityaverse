@@ -1,0 +1,21 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 24436,
+        "MolecularFormula": "Na2O4S",
+        "MolecularWeight": "142.04",
+        "SMILES": "[O-]S(=O)(=O)[O-].[Na+].[Na+]",
+        "ConnectivitySMILES": "[O-]S(=O)(=O)[O-].[Na+].[Na+]",
+        "IUPACName": "disodium;sulfate",
+        "ExactMass": "141.93126821",
+        "MonoisotopicMass": "141.93126821",
+        "TPSA": 88.6,
+        "Complexity": 62,
+        "Charge": 0,
+        "HBondDonorCount": 0,
+        "HBondAcceptorCount": 4
+      }
+    ]
+  }
+}

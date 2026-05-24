@@ -1,0 +1,22 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 5951,
+        "MolecularFormula": "C3H7NO3",
+        "MolecularWeight": "105.09",
+        "SMILES": "C([C@@H](C(=O)O)N)O",
+        "ConnectivitySMILES": "C(C(C(=O)O)N)O",
+        "IUPACName": "(2S)-2-amino-3-hydroxypropanoic acid",
+        "XLogP": -3.1,
+        "ExactMass": "105.042593085",
+        "MonoisotopicMass": "105.042593085",
+        "TPSA": 83.6,
+        "Complexity": 72,
+        "Charge": 0,
+        "HBondDonorCount": 3,
+        "HBondAcceptorCount": 4
+      }
+    ]
+  }
+}

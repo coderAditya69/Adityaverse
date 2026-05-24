@@ -1,0 +1,22 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 1140,
+        "MolecularFormula": "C7H8",
+        "MolecularWeight": "92.14",
+        "SMILES": "CC1=CC=CC=C1",
+        "ConnectivitySMILES": "CC1=CC=CC=C1",
+        "IUPACName": "toluene",
+        "XLogP": 2.7,
+        "ExactMass": "92.062600255",
+        "MonoisotopicMass": "92.062600255",
+        "TPSA": 0,
+        "Complexity": 42,
+        "Charge": 0,
+        "HBondDonorCount": 0,
+        "HBondAcceptorCount": 0
+      }
+    ]
+  }
+}

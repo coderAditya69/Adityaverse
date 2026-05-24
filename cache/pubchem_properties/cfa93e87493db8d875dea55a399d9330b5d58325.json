@@ -1,0 +1,21 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 24083,
+        "MolecularFormula": "MgO4S",
+        "MolecularWeight": "120.37",
+        "SMILES": "[O-]S(=O)(=O)[O-].[Mg+2]",
+        "ConnectivitySMILES": "[O-]S(=O)(=O)[O-].[Mg+2]",
+        "IUPACName": "magnesium sulfate",
+        "ExactMass": "119.9367713",
+        "MonoisotopicMass": "119.9367713",
+        "TPSA": 88.6,
+        "Complexity": 62,
+        "Charge": 0,
+        "HBondDonorCount": 0,
+        "HBondAcceptorCount": 4
+      }
+    ]
+  }
+}

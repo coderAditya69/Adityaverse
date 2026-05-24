@@ -1,0 +1,22 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 281,
+        "MolecularFormula": "CO",
+        "MolecularWeight": "28.010",
+        "SMILES": "[C-]#[O+]",
+        "ConnectivitySMILES": "[C-]#[O+]",
+        "IUPACName": "carbon monoxide",
+        "XLogP": 0.7,
+        "ExactMass": "27.994914619",
+        "MonoisotopicMass": "27.994914619",
+        "TPSA": 1,
+        "Complexity": 10,
+        "Charge": 0,
+        "HBondDonorCount": 0,
+        "HBondAcceptorCount": 1
+      }
+    ]
+  }
+}

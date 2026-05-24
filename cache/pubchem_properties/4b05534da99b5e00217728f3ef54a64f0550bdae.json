@@ -1,0 +1,21 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 10112,
+        "MolecularFormula": "CCaO3",
+        "MolecularWeight": "100.09",
+        "SMILES": "C(=O)([O-])[O-].[Ca+2]",
+        "ConnectivitySMILES": "C(=O)([O-])[O-].[Ca+2]",
+        "IUPACName": "calcium carbonate",
+        "ExactMass": "99.9473347",
+        "MonoisotopicMass": "99.9473347",
+        "TPSA": 63.2,
+        "Complexity": 18,
+        "Charge": 0,
+        "HBondDonorCount": 0,
+        "HBondAcceptorCount": 3
+      }
+    ]
+  }
+}

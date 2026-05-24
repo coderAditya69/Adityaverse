@@ -1,0 +1,21 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 14797,
+        "MolecularFormula": "HKO",
+        "MolecularWeight": "56.106",
+        "SMILES": "[OH-].[K+]",
+        "ConnectivitySMILES": "[OH-].[K+]",
+        "IUPACName": "potassium hydroxide",
+        "ExactMass": "55.96644614",
+        "MonoisotopicMass": "55.96644614",
+        "TPSA": 1,
+        "Complexity": 2,
+        "Charge": 0,
+        "HBondDonorCount": 1,
+        "HBondAcceptorCount": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 5962,
+        "MolecularFormula": "C6H14N2O2",
+        "MolecularWeight": "146.19",
+        "SMILES": "C(CCN)C[C@@H](C(=O)O)N",
+        "ConnectivitySMILES": "C(CCN)CC(C(=O)O)N",
+        "IUPACName": "(2S)-2,6-diaminohexanoic acid",
+        "XLogP": -3,
+        "ExactMass": "146.105527694",
+        "MonoisotopicMass": "146.105527694",
+        "TPSA": 89.3,
+        "Complexity": 106,
+        "Charge": 0,
+        "HBondDonorCount": 3,
+        "HBondAcceptorCount": 4
+      }
+    ]
+  }
+}

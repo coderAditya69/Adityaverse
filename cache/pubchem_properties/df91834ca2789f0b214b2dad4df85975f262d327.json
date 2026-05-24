@@ -1,0 +1,21 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 5234,
+        "MolecularFormula": "ClNa",
+        "MolecularWeight": "58.44",
+        "SMILES": "[Na+].[Cl-]",
+        "ConnectivitySMILES": "[Na+].[Cl-]",
+        "IUPACName": "sodium chloride",
+        "ExactMass": "57.9586220",
+        "MonoisotopicMass": "57.9586220",
+        "TPSA": 0,
+        "Complexity": 2,
+        "Charge": 0,
+        "HBondDonorCount": 0,
+        "HBondAcceptorCount": 1
+      }
+    ]
+  }
+}

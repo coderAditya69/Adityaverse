@@ -1,0 +1,21 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 22985,
+        "MolecularFormula": "H4N2O3",
+        "MolecularWeight": "80.044",
+        "SMILES": "[NH4+].[N+](=O)([O-])[O-]",
+        "ConnectivitySMILES": "[NH4+].[N+](=O)([O-])[O-]",
+        "IUPACName": "azanium nitrate",
+        "ExactMass": "80.02219199",
+        "MonoisotopicMass": "80.02219199",
+        "TPSA": 63.9,
+        "Complexity": 18,
+        "Charge": 0,
+        "HBondDonorCount": 1,
+        "HBondAcceptorCount": 3
+      }
+    ]
+  }
+}

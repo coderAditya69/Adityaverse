@@ -1,0 +1,21 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 516892,
+        "MolecularFormula": "CHNaO3",
+        "MolecularWeight": "84.007",
+        "SMILES": "C(=O)(O)[O-].[Na+]",
+        "ConnectivitySMILES": "C(=O)(O)[O-].[Na+]",
+        "IUPACName": "sodium hydrogen carbonate",
+        "ExactMass": "83.98233817",
+        "MonoisotopicMass": "83.98233817",
+        "TPSA": 60.4,
+        "Complexity": 33,
+        "Charge": 0,
+        "HBondDonorCount": 1,
+        "HBondAcceptorCount": 3
+      }
+    ]
+  }
+}

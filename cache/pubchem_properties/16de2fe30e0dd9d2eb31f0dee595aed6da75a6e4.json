@@ -1,0 +1,22 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 311,
+        "MolecularFormula": "C6H8O7",
+        "MolecularWeight": "192.12",
+        "SMILES": "C(C(=O)O)C(CC(=O)O)(C(=O)O)O",
+        "ConnectivitySMILES": "C(C(=O)O)C(CC(=O)O)(C(=O)O)O",
+        "IUPACName": "2-hydroxypropane-1,2,3-tricarboxylic acid",
+        "XLogP": -1.7,
+        "ExactMass": "192.02700259",
+        "MonoisotopicMass": "192.02700259",
+        "TPSA": 132,
+        "Complexity": 227,
+        "Charge": 0,
+        "HBondDonorCount": 4,
+        "HBondAcceptorCount": 7
+      }
+    ]
+  }
+}

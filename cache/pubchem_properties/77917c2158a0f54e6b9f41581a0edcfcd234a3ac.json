@@ -1,0 +1,22 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 24682,
+        "MolecularFormula": "O3S",
+        "MolecularWeight": "80.07",
+        "SMILES": "O=S(=O)=O",
+        "ConnectivitySMILES": "O=S(=O)=O",
+        "IUPACName": "sulfur trioxide",
+        "XLogP": -0.5,
+        "ExactMass": "79.95681503",
+        "MonoisotopicMass": "79.95681503",
+        "TPSA": 52.2,
+        "Complexity": 61,
+        "Charge": 0,
+        "HBondDonorCount": 0,
+        "HBondAcceptorCount": 3
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 9989226,
+        "MolecularFormula": "Al2O3",
+        "MolecularWeight": "101.961",
+        "SMILES": "[O-2].[O-2].[O-2].[Al+3].[Al+3]",
+        "ConnectivitySMILES": "[O-2].[O-2].[O-2].[Al+3].[Al+3]",
+        "IUPACName": "dialuminum;tris(oxygen(2-))",
+        "ExactMass": "101.947821",
+        "MonoisotopicMass": "101.947821",
+        "TPSA": 3,
+        "Complexity": 0,
+        "Charge": 0,
+        "HBondDonorCount": 0,
+        "HBondAcceptorCount": 3
+      }
+    ]
+  }
+}

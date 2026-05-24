@@ -1,0 +1,22 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 222,
+        "MolecularFormula": "H3N",
+        "MolecularWeight": "17.031",
+        "SMILES": "N",
+        "ConnectivitySMILES": "N",
+        "IUPACName": "azane",
+        "XLogP": -0.7,
+        "ExactMass": "17.026549100",
+        "MonoisotopicMass": "17.026549100",
+        "TPSA": 1,
+        "Complexity": 0,
+        "Charge": 0,
+        "HBondDonorCount": 1,
+        "HBondAcceptorCount": 1
+      }
+    ]
+  }
+}

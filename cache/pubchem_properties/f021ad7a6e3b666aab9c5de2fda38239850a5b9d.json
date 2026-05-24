@@ -1,0 +1,22 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 947,
+        "MolecularFormula": "N2",
+        "MolecularWeight": "28.014",
+        "SMILES": "N#N",
+        "ConnectivitySMILES": "N#N",
+        "IUPACName": "molecular nitrogen",
+        "XLogP": 0.1,
+        "ExactMass": "28.006148008",
+        "MonoisotopicMass": "28.006148008",
+        "TPSA": 47.6,
+        "Complexity": 8,
+        "Charge": 0,
+        "HBondDonorCount": 0,
+        "HBondAcceptorCount": 2
+      }
+    ]
+  }
+}

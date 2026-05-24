@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Molecule Builder</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./vendor/3Dmol-min.js"></script>
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Standalone Chemistry Workbench</p>
+          <h1>Molecule Builder</h1>
+          <p class="lede">
+            Search compounds by name, fall back to formulas, inspect a full
+            118-element periodic table, and explore each molecule in both 2D
+            and 3D with chemistry-aware analysis.
+          </p>
+        </div>
+
+        <div class="hero-stat-grid">
+          <div class="stat-card">
+            <span class="stat-label">Elements</span>
+            <strong id="element-count">118</strong>
+          </div>
+          <div class="stat-card">
+            <span class="stat-label">Starter Library</span>
+            <strong id="library-count">0</strong>
+          </div>
+          <div class="stat-card">
+            <span class="stat-label">Views</span>
+            <strong>2D + 3D</strong>
+          </div>
+        </div>
+      </header>
+
+      <main class="workspace">
+        <section class="main-column">
+          <article class="panel search-panel" data-mobile-panel="search">
+            <div class="panel-heading">
+              <div>
+                <p class="panel-kicker">Compound Search</p>
+                <h2>Name first, formula when needed</h2>
+              </div>
+              <button id="periodic-button" class="ghost-button" type="button">
+                Open Periodic Table
+              </button>
+            </div>
+
+            <form id="compound-search-form" class="search-form">
+              <label class="field">
+                <span>Compound name or formula</span>
+                <input
+                  id="compound-query"
+                  type="text"
+                  placeholder="Try glucose, water, sulfuric acid, or C6H12O6"
+                  autocomplete="off"
+                />
+              </label>
+              <div class="search-actions">
+                <button class="primary-button" type="submit">Build Molecule</button>
+                <button id="use-formula-button" class="ghost-button" type="button">
+                  Use Formula Instead
+                </button>
+              </div>
+            </form>
+
+            <div id="status-banner" class="status-banner">
+              Loading periodic table data and starter compounds...
+            </div>
+
+            <div class="example-strip">
+              <div class="subheading-row">
+                <h3>Quick examples</h3>
+                <span id="example-count" class="mono-note">Ready-to-load compounds</span>
+              </div>
+              <div id="example-chips" class="chip-grid"></div>
+            </div>
+          </article>
+
+          <div class="results-grid">
+            <article class="panel summary-card" data-mobile-panel="molecule">
+              <div class="panel-heading">
+                <div>
+                  <p class="panel-kicker">Current Molecule</p>
+                  <h2 id="compound-name">Waiting for a molecule</h2>
+                </div>
+                <div class="formula-pill" id="compound-formula">-</div>
+              </div>
+
+              <p id="compound-message" class="body-copy">
+                Search a compound by name first. If there is no direct match,
+                this app will prompt you for the chemical formula instead.
+              </p>
+
+              <div id="summary-badges" class="badge-row"></div>
+
+              <div class="summary-grid">
+                <div class="info-tile">
+                  <span class="tile-label">IUPAC name</span>
+                  <strong id="iupac-name">-</strong>
+                </div>
+                <div class="info-tile">
+                  <span class="tile-label">Molecular weight</span>
+                  <strong id="molecular-weight">-</strong>
+                </div>
+                <div class="info-tile">
+                  <span class="tile-label">Molar mass from formula</span>
+                  <strong id="formula-mass">-</strong>
+                </div>
+                <div class="info-tile">
+                  <span class="tile-label">Complexity</span>
+                  <strong id="compound-complexity">-</strong>
+                </div>
+              </div>
+            </article>
+
+            <article class="panel structure-card" data-mobile-panel="molecule">
+              <div class="subheading-row">
+                <h3>2D Structure</h3>
+                <span class="mono-note">PubChem-rendered depiction</span>
+              </div>
+              <div class="structure-frame">
+                <img
+                  id="structure-image"
+                  alt="2D structure"
+                  src=""
+                />
+              </div>
+              <div class="symbolic-grid">
+                <div class="info-tile compact">
+                  <span class="tile-label">Isomeric SMILES</span>
+                  <strong id="smiles-text">-</strong>
+                </div>
+                <div class="info-tile compact">
+                  <span class="tile-label">Connectivity SMILES</span>
+                  <strong id="connectivity-smiles-text">-</strong>
+                </div>
+              </div>
+            </article>
+
+            <article class="panel viewer-card" data-mobile-panel="molecule">
+              <div class="subheading-row">
+                <h3>3D Structure</h3>
+                <span class="mono-note">Ball-and-stick interactive viewer</span>
+              </div>
+              <div id="viewer3d" class="viewer3d"></div>
+              <div class="viewer-controls">
+                <button id="reset-viewer" class="ghost-button" type="button">Reset Camera</button>
+                <button id="toggle-surface" class="ghost-button" type="button">Toggle Surface</button>
+              </div>
+            </article>
+
+            <article class="panel composition-card" data-mobile-panel="molecule">
+              <div class="subheading-row">
+                <h3>Formula Breakdown</h3>
+                <span class="mono-note">Element counts and mass share</span>
+              </div>
+              <div class="composition-table-wrap">
+                <table class="composition-table">
+                  <thead>
+                    <tr>
+                      <th>Element</th>
+                      <th>Count</th>
+                      <th>Atomic Mass</th>
+                      <th>% Mass</th>
+                    </tr>
+                  </thead>
+                  <tbody id="composition-body"></tbody>
+                </table>
+              </div>
+            </article>
+
+            <article class="panel insights-card" data-mobile-panel="molecule">
+              <div class="subheading-row">
+                <h3>Chemistry Insights</h3>
+                <span class="mono-note">Live analysis and heuristics</span>
+              </div>
+              <div id="insight-grid" class="insight-grid"></div>
+
+              <div class="subheading-row secondary">
+                <h3>Synonyms</h3>
+                <span class="mono-note">Useful alternate names</span>
+              </div>
+              <div id="synonym-list" class="synonym-list"></div>
+            </article>
+
+            <article class="panel candidates-card" data-mobile-panel="molecule">
+              <div class="subheading-row">
+                <h3>Alternate Matches</h3>
+                <span class="mono-note">Important for formulas like C6H12O6</span>
+              </div>
+              <div id="candidate-list" class="candidate-list">
+                <p class="empty-state">Alternate matches will appear here when a query is ambiguous.</p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <aside class="side-column">
+          <article class="panel tool-card" data-mobile-panel="tools">
+            <div class="subheading-row">
+              <h3>Reaction Balancer</h3>
+              <span class="mono-note">Exact integer coefficients</span>
+            </div>
+            <form id="balance-form" class="balance-form">
+              <label class="field">
+                <span>Unbalanced reaction</span>
+                <textarea
+                  id="balance-input"
+                  rows="5"
+                  placeholder="Example: C2H6 + O2 -> CO2 + H2O"
+                ></textarea>
+              </label>
+              <button class="primary-button" type="submit">Balance Reaction</button>
+            </form>
+            <div id="balance-output" class="balance-output">
+              Try a combustion, acid-base, or redox reaction.
+            </div>
+          </article>
+
+          <article class="panel tool-card" data-mobile-panel="elements">
+            <div class="subheading-row">
+              <h3>Element Spotlight</h3>
+              <span class="mono-note">Linked to current formula</span>
+            </div>
+            <div id="element-spotlight" class="element-spotlight">
+              <p class="empty-state">
+                Open the periodic table or load a compound to inspect element details.
+              </p>
+            </div>
+          </article>
+
+          <article class="panel tool-card" data-mobile-panel="tools">
+            <div class="subheading-row">
+              <h3>Data Sources</h3>
+              <span class="mono-note">Verified chemistry references</span>
+            </div>
+            <div id="source-list" class="source-list"></div>
+          </article>
+        </aside>
+      </main>
+
+      <nav class="mobile-dock" aria-label="Mobile navigation">
+        <button class="mobile-dock-button active" type="button" data-mobile-view="search">
+          Search
+        </button>
+        <button class="mobile-dock-button" type="button" data-mobile-view="molecule">
+          Molecule
+        </button>
+        <button class="mobile-dock-button" type="button" data-mobile-view="elements">
+          Elements
+        </button>
+        <button class="mobile-dock-button" type="button" data-mobile-view="tools">
+          Tools
+        </button>
+      </nav>
+    </div>
+
+    <dialog id="periodic-dialog" class="periodic-dialog">
+      <form method="dialog" class="dialog-shell">
+        <div class="dialog-header">
+          <div>
+            <p class="panel-kicker">118 Current Elements</p>
+            <h2>Interactive Periodic Table</h2>
+          </div>
+          <button class="ghost-button" type="submit">Close</button>
+        </div>
+
+        <div class="dialog-controls">
+          <label class="field compact-field">
+            <span>Find an element</span>
+            <input
+              id="element-search"
+              type="text"
+              placeholder="Hydrogen, Au, 8..."
+              autocomplete="off"
+            />
+          </label>
+          <div class="view-toggle">
+            <button id="grid-view-button" class="ghost-button active" type="button">
+              Grid View
+            </button>
+            <button id="matrix-view-button" class="ghost-button" type="button">
+              Full Data Matrix
+            </button>
+          </div>
+          <p class="dialog-note">
+            Click any element tile to see atomic mass, oxidation states, valencies,
+            and more.
+          </p>
+        </div>
+
+        <div class="dialog-layout">
+          <section id="periodic-grid-view" class="periodic-grid-view">
+            <div id="periodic-grid" class="periodic-grid"></div>
+            <div id="periodic-detail" class="periodic-detail"></div>
+          </section>
+          <section id="periodic-matrix-view" class="periodic-matrix-view hidden">
+            <div class="matrix-wrap">
+              <table class="matrix-table">
+                <thead>
+                  <tr>
+                    <th>No</th>
+                    <th>Symbol</th>
+                    <th>Name</th>
+                    <th>Atomic Mass</th>
+                    <th>Oxidation States</th>
+                    <th>Valencies</th>
+                    <th>Electron Config</th>
+                    <th>Electronegativity</th>
+                    <th>Radius (pm)</th>
+                    <th>Ionization (eV)</th>
+                    <th>Affinity (eV)</th>
+                    <th>State</th>
+                    <th>Melting (K)</th>
+                    <th>Boiling (K)</th>
+                    <th>Density (g/cm3)</th>
+                    <th>Category</th>
+                    <th>Year</th>
+                    <th>History</th>
+                    <th>Geography</th>
+                    <th>Civics</th>
+                  </tr>
+                </thead>
+                <tbody id="periodic-matrix-body"></tbody>
+              </table>
+            </div>
+          </section>
+        </div>
+      </form>
+    </dialog>
+
+    <dialog id="atom-dialog" class="atom-dialog">
+      <form method="dialog" class="atom-shell">
+        <div class="dialog-header">
+          <div>
+            <p class="panel-kicker">Atom Visualization</p>
+            <h2 id="atom-title">Element Atom</h2>
+          </div>
+          <button class="ghost-button" type="submit">Close</button>
+        </div>
+        <div class="atom-layout">
+          <div id="atom-viewer" class="atom-viewer"></div>
+          <div class="atom-info">
+            <div class="info-tile compact">
+              <span class="tile-label">Electron Shells</span>
+              <strong id="atom-shells">-</strong>
+            </div>
+            <div class="info-tile compact">
+              <span class="tile-label">Protons</span>
+              <strong id="atom-protons">-</strong>
+            </div>
+            <div class="info-tile compact">
+              <span class="tile-label">Atomic Mass</span>
+              <strong id="atom-mass">-</strong>
+            </div>
+            <p id="atom-note" class="dialog-note">
+              The model shows a Bohr-style educational shell layout with animated electrons.
+            </p>
+          </div>
+        </div>
+      </form>
+    </dialog>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
